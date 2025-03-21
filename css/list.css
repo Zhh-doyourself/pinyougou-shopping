@@ -1,0 +1,164 @@
+/* 列表页专有的css */
+@font-face {
+    font-family: 'icomoon';
+    src: url('../fonts/icomoon.eot?3gi0b2');
+    src: url('../fonts/icomoon.eot?3gi0b2#iefix') format('embedded-opentype'),
+        url('../fonts/icomoon.ttf?3gi0b2') format('truetype'),
+        url('../fonts/icomoon.woff?3gi0b2') format('woff'),
+        url('../fonts/icomoon.svg?3gi0b2#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+.nav {
+    overflow: hidden;
+}
+
+.sk {
+    position: absolute;
+    left: 185px;
+    top: 40px;
+    border-left: 2px solid #b1191a;
+    padding: 3px 0 0 14px;
+}
+
+.sk_list {
+    float: left;
+}
+
+.sk_list ul li {
+    float: left;
+    line-height: 47px;
+    padding: 0 28px;
+}
+
+.sk_list ul li a {
+    font-size: 16px;
+    color: #000;
+    font-weight: 700;
+}
+
+.sk_list ul li a:hover {
+    color: #b1191a;
+}
+
+.sk_content {
+    float: left;
+}
+
+.sk_content ul li {
+    float: left;
+    line-height: 49px;
+    padding: 0 23px;
+}
+
+.sk_content ul li:nth-child(9) a::after {
+    content: '\e90a';
+    font-family: 'icomoon';
+    vertical-align: middle;
+}
+
+.sk_content ul li:nth-child(9) {
+    padding-right: 0;
+}
+
+.sk_content ul li a {
+    font-size: 14px;
+}
+
+.sk_hd {
+    height: 120px;
+    line-height: 120px;
+    background: url(../upload/bg-01.png) no-repeat center;
+    text-align: center;
+}
+
+.sk_bd {
+    margin-top: 17px;
+    margin-bottom: 24px;
+}
+
+.sk_bd ul li {
+    float: left;
+    width: 291px;
+    height: 461px;
+    border: 1px solid transparent;
+    margin-right: 12px;
+    margin-top: 7px;
+}
+
+.sk_bd ul li img {
+    margin-bottom: 16px;
+}
+
+.sk_bd ul li:nth-child(4n) {
+    margin-right: 0;
+}
+
+.sk_bd ul li:hover {
+    border: 1px solid #b1191a;
+}
+
+.sk_bd ul li p {
+    font-size: 14px;
+    margin-left: 10px;
+}
+
+.sk_bd ul li .price {
+    font-size: 22px;
+    color: #e60012;
+    font-weight: 700;
+    margin-left: 10px;
+}
+
+.sk_bd ul li .price i {
+    color: #a4a4a4;
+    font-size: 14px;
+    text-decoration: line-through;
+}
+
+.sale {
+    height: 15px;
+    font-size: 14px;
+    margin-left: 10px;
+}
+
+.sale i {
+    color: #e12228;
+}
+
+.progress {
+    display: inline-block;
+    width: 133px;
+    height: 13px;
+    border: 1px solid #ed282e;
+    border-radius: 6px;
+    padding: 1px;
+    margin: 0 10px;
+    vertical-align: middle;
+}
+
+.progress_bar {
+    width: 0;
+    height: 100%;
+    border-radius: 6px;
+    background-color: #ed282e;
+    transition: all .5s;
+}
+
+.progress:hover .progress_bar {
+    width: 87%;
+}
+
+.ljqg {
+    display: block;
+    width: 290px;
+    height: 50px;
+    line-height: 50px;
+    background-color: #b1191a;
+    margin-top: 15px;
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+}
